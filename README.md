@@ -11,4 +11,5 @@ For this application I have used google maps api to calculate the distance from 
 5. Implemented the search functionality by using table view controller.
 6. Made use of cocoa pods to install external dependencies.
 
-
+#How it works
+Download the application and open folder Lab3 and double click the file Lab3.xcworkspace to open it in XCode.
