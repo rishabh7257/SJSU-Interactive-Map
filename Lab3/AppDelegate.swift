@@ -2,11 +2,13 @@
 //  AppDelegate.swift
 //  Lab3
 //
-//  Created by Rishabh Sanghvi on 11/2/15.
+//  Created by Rishabh Sanghvi on 11/3/15.
 //  Copyright © 2015 Rishabh Sanghvi. All rights reserved.
 //
 
 import UIKit
+import GoogleMaps
+//import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -39,6 +41,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func applicationDidFinishLaunching(application: UIApplication) {
+       // _;: GMSServices = "AIzaSyDqd0KFSk00oT-8Zf-PQA5vZsShPYbstVg"
     }
 
 
